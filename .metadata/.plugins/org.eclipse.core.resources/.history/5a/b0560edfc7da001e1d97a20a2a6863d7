@@ -1,0 +1,5 @@
+package com.akash.ticket.app.utility;
+
+public class ValidatePaymentInfo {
+
+}

@@ -1,0 +1,11 @@
+
+
+# H2 database connection properties
+spring.datasource.url=jdbc:h2:/path/to/your/h2/database;AUTO_SERVER=TRUE
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=org.h2.Driver
+
+# H2 console (optional, for development)
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console

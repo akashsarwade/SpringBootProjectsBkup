@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/spring-aop-6.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/spring-aspects-6.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/spring-beans-6.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/spring-context-6.0.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/spring-context-support-6.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/spring-core-6.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/spring-expression-6.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/jar_files/spring-beans-6.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/jar_files/spring-core-6.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/asarwade/Downloads/jar_files/spring-jcl-6.0.11.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

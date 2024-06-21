@@ -1,0 +1,25 @@
+package com.akash.ticket.app.utility;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.akash.ticket.app.exception.InsufficentBalanceError;
+
+public class ValidatePaymentInfo {
+
+	private static Map<String, Double> paymentInfo = new HashMap<>();
+	static {
+		paymentInfo.put("Acc1", 1000.0);
+		paymentInfo.put("Acc2", 2000.0);
+		paymentInfo.put("Acc3", 4000.0);
+
+	}
+
+	public static boolean validateCreditLimit(String accNo, double paidAmount) {
+		if (paidAmount > paymentInfo.get(accNo)) {
+			throw new InsufficentBalanceError("Insufficient Balance..!!");
+		} else {
+			return true;
+		}
+	}
+}

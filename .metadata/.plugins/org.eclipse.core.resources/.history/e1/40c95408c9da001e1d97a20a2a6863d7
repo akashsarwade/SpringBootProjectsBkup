@@ -1,0 +1,50 @@
+package com.akash.ticket.app.dto;
+
+import com.akash.ticket.app.entity.TicketInfo;
+
+public class MovieTicketAcknowledgment {
+
+	private String status;
+	private double totalFare;
+	private String prnNo;
+	private TicketInfo ticketInfo;
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getTotalFare() {
+		return totalFare;
+	}
+
+	public void setTotalFare(String totalFare) {
+		this.totalFare = totalFare;
+	}
+
+	public String getPrnNo() {
+		return prnNo;
+	}
+
+	public void setPrnNo(String prnNo) {
+		this.prnNo = prnNo;
+	}
+
+	public TicketInfo getTicketInfo() {
+		return ticketInfo;
+	}
+
+	public void setTicketInfo(TicketInfo ticketInfo) {
+		this.ticketInfo = ticketInfo;
+	}
+
+	@Override
+	public String toString() {
+		return "MovieTicketAcknowledgment [status=" + status + ", totalFare=" + totalFare + ", prnNo=" + prnNo
+				+ ", ticketInfo=" + ticketInfo + "]";
+	}
+
+}

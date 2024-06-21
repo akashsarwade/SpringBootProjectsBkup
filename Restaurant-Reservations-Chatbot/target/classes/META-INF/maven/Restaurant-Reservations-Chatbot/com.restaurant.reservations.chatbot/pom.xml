@@ -1,0 +1,13 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Restaurant-Reservations-Chatbot</groupId>
+  <artifactId>com.restaurant.reservations.chatbot</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Restaurant-Reservations-Chatbot</name>
+  <description>Use Regular Expressions &amp; Java to Build a Restaurant Reservations Chatbot
+Use Regular Expressions &amp; Java to Build a Restaurant Reservations Chatbot
+Use Regular Expressions &amp; Java to Build a Restaurant Reservations Chatbot
+Use Regular Expressions &amp; Java to Build a Restaurant Reservations Chatbot
+Use Regular Expressions &amp; Java to Build a Restaurant Reservations Chatbot
+sing Regular Expressions &amp; Java to Build a Restaurant Reservations Chatbot</description>
+</project>

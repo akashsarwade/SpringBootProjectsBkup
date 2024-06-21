@@ -1,0 +1,5 @@
+package com.akash.ticket.app.controller;
+
+public class MovieTicketController {
+
+}
